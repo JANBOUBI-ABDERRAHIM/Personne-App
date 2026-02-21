@@ -7,7 +7,7 @@ with open('./personnes.json', 'r', encoding="utf-8") as fichier:
     personnes = json.load(fichier)
 
 for _ in personnes[:-1]:
-    p =  Personnes.Personne()
+    a =  Personnes.Personne()
 
 X1, X2, X3 = 20, 160, 330
 
